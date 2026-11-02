@@ -1,0 +1,49 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.wadah-hp {
+    background-color: azure;
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.foto-bulat {
+    width: 100px;
+    border-radius: 50%; /*Membuat foto melinkar sempurna*/
+    border: 3px solid #00ffcc /*garis pingir warna neon*/
+
+}
+
+.nama-akun {
+    color:rgb(0, 0, 0);
+    margin-bottom:5px;
+
+}
+
+.bio-singkat {
+    color:rgb(26, 29, 29);
+}
+
+.tombol-link {
+    display: block;/*agar tombol turun kebawah,tidak sejajar*/
+    background-color:rgb(5, 5, 5);
+    color:white;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 25px;/*bentuk pil membulat */
+    text-decoration: none;/* menghilangkan garis bawah */
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.tombol-link:hover{
+    background-color: #00ffcc;/*berubah warna saat disentuh*/
+    color: black;
+    transform: scale(1.05);/*membesar5% */  
+}
